@@ -10,6 +10,4 @@ from utils.db_api.db_methods import add_user
 async def bot_start(message: types.Message):
     user = User(message.from_user.id)
     add_user(user)
-    await message.answer(f"Привет, {message.from_user.full_name}!"
-                         f"Этот бот поможет тебе сохранять места,"
-                         f"которые ")
+    await message.answer(f"Привет, {message.from_user.full_name}!")
