@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('/home/svt/PycharmProjects/coursera-bot-assignment/utils/db_api/database.db')
+conn = sqlite3.connect('utils/db_api/database.db')
 cur = conn.cursor()
 
 cur.execute("CREATE TABLE IF NOT EXISTS User(user_id INT PRIMARY KEY)")

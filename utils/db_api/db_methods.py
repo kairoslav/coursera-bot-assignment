@@ -1,7 +1,7 @@
 import sqlite3
 from my_types import User, Place
 
-conn = sqlite3.connect('/home/svt/PycharmProjects/coursera-bot-assignment/utils/db_api/database.db')
+conn = sqlite3.connect('utils/db_api/database.db')
 cursor = conn.cursor()
 
 
